@@ -7,6 +7,7 @@ specifiers:
   chalk: ^5.2.0
   eslint: ^8.32.0
   eslint-config-prettier: ^8.6.0
+  picocolors: ^1.0.0
   prettier: ^2.8.3
   tsup: ^6.5.0
   typescript: ^4.9.4
@@ -15,6 +16,7 @@ specifiers:
 
 dependencies:
   chalk: 5.2.0
+  picocolors: 1.0.0
 
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.49.0_iu322prlnwsygkcra5kbpy22si
@@ -1575,7 +1577,6 @@ packages:
 
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-    dev: true
 
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}

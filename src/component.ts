@@ -8,7 +8,7 @@ interface ClassComponent {
   __vccOpts: ComponentOptions
 }
 
-export function getComponentName(Component: ConcreteComponent, includeInferred = true): string | false | undefined {
+function getComponentName(Component: ConcreteComponent, includeInferred = true): string | false | undefined {
   return typeof Component === 'function'
     ? Component.displayName || Component.name
     : Component.name || (includeInferred && Component.__name)

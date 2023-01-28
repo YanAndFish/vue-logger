@@ -26,13 +26,17 @@
   "files": [
     "dist"
   ],
+  "main":"./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./dist": "./dist"
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
   },
   "engines": {
     "node": ">=16"
